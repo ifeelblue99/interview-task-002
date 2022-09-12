@@ -1,0 +1,45 @@
+{
+    "outerBar": [
+        {"id": 0, "icon": "./src/assets/oimg/oimg1.png", "childrenID": [] },
+        {"id": 1, "icon": "./src/assets/oimg/oimg2.png", "childrenID": [] },
+        {"id": 2, "icon": "./src/assets/oimg/oimg3.png", "childrenID": ["ddd01", "ddd02", "ddd03", "ddd04", "ddd05", "ddd06"] },
+        {"id": 3, "icon": "./src/assets/oimg/oimg4.png", "childrenID": [] },
+        {"id": 4, "icon": "./src/assets/oimg/oimg5.png", "childrenID": [] }
+    ],
+    "innerBar": {
+        "ddd01": {
+            "id":"ddd01", 
+            "name": "NOTIFICATIONS",
+            "icon":"./src/assets/icons/notification.png"
+        },
+        "ddd02": {
+            "id":"ddd02", 
+            "name": "Summary",
+            "icon":"./src/assets/icons/summary.png"
+        },
+        "ddd03": {
+            "id":"ddd03", 
+            "name": "PUBLISH",
+            "icon":"./src/assets/icons/edit.png",
+            "links": [
+                {"name":"Compose", "route":"none"},
+                {"name":"Feed", "route":"feed"}
+            ]
+        },
+        "ddd04": {
+            "id":"ddd04", 
+            "name": "ENGAGE",
+            "icon":"./src/assets/icons/message.png"
+        },
+        "ddd05": {
+            "id":"ddd05", 
+            "name": "LISTEN",
+            "icon":"./src/assets/icons/wave.png"
+        },
+        "ddd06": {
+            "id":"ddd06", 
+            "name": "REPORT",
+            "icon":"./src/assets/icons/statistics.png"
+        }
+    }
+}

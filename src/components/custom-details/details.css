@@ -1,0 +1,112 @@
+.custom-details {
+  display: flex;
+  flex-direction: column;
+}
+.custom-details img {
+  width: 20px;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background-color: white;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.details-link-holder {
+  padding: 0.5rem;
+  background-color: var(--dark-gray);
+}
+.custom-details:active,
+.custom-details:hover {
+  background-color: var(--soft-red);
+}
+.button-holder {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.button-holder button {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.1rem;
+  text-align: start;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--mid-gray);
+}
+.button-holder button:hover {
+  color: var(--dark-red);
+}
+
+#details-toggle-menu {
+  padding: 0.7rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.7rem;
+}
+
+/* 600px */
+@media screen and (max-width: 600px) {
+  .custom-details span {
+    display: none;
+  }
+  .side-bar h2 {
+    display: none;
+  }
+  .button-holder button {
+    display: none;
+  }
+  .custom-details:hover span,
+  .custom-details:hover .side-bar {
+    display: block !important;
+  }
+  .custom-details:hover .button-holder button {
+    display: inline !important;
+  }
+
+  /**/
+  .feed-page-colors {
+    width: 80%;
+    padding-left: 110px !important;
+  }
+  .feed-post-holder {
+    padding-left: 120px !important;
+  }
+
+  /**/
+  .loading-anim-custom {
+    left: 60%;
+  }
+}
+
+/**/
+@media screen and (max-width: 460px) {
+  .custom-details span {
+    display: inline;
+  }
+  .custom-details {
+    border: 1px var(--dark-gray) solid;
+  }
+  .feed-page-colors {
+    width: 95%;
+    padding-left: 0 !important;
+    padding: 0.7rem !important;
+  }
+  .feed-post-holder {
+    padding-left: 0 !important;
+    padding: 1rem !important;
+    margin-bottom: 210px;
+  }
+  .button-holder button {
+    display: inline;
+  }
+
+  /**/
+  .loading-anim-custom {
+    left: 40% !important;
+  }
+}

@@ -1,0 +1,13 @@
+.feed-post-holder {
+  padding: 1rem;
+  padding-left: 250px;
+}
+
+.feed-post {
+  margin-top: 5rem;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}

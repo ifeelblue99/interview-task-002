@@ -1,0 +1,42 @@
+:root {
+  --dark-gray: #28293d;
+  --soft-gray: #9090a7;
+  --mid-gray: #555870;
+
+  --dark-orange: #ff8801;
+  --dark-green: #05c270;
+  --dark-blue: #0063f8;
+  --dark-red: #ff3b3b;
+
+  --soft-orange: #fccc76;
+  --soft-green: #57eba3;
+  --soft-blue: #5b8dee;
+  --soft-red: #ff8080;
+
+  --border-rad: 7px;
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: var(--soft-gray);
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
